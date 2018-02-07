@@ -1,10 +1,11 @@
 #!/bin/bash
 for (( i=77; i>0; i--)); do
   sleep 1 &
-  printf "as@epic  $i \r"
+  printf "Jangan di tutup, sedang proses update. Trims as@epic  $i \r"
   wait
 done
 "D:\DS\kill_DS.exe" $1 &
 git pull
 "D:\DS\app.exe" $1 &
 
+start chrome https://smart.rsabhk.co.id:2222
